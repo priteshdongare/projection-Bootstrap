@@ -1,0 +1,160 @@
+body{
+}
+/*container1*/
+.mean1{
+    width: 100%;
+    background-image: url("../img/projection1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    padding: 10px 0px 80px;
+}
+.mean1 .navbar-default{
+    background: none;
+    border: 0;
+    margin-top: 20px;
+}
+.navbar-header .navbar-brand{
+    color: #ffffff;
+    font-size: 15px;
+}
+#me a{
+    color: #ffffff;
+}
+.wel{
+    border-top: 1px solid #ffffff;
+    padding-top: 100px;
+}
+.add{
+    border-right: 2px solid grey;
+    border-left: 2px solid grey;
+}
+.wel h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+.sec3{
+    margin-top: 25px;
+}
+.sec3 .car{
+    width: 90%;
+    margin-top:15px;
+}
+.sec3 .car span{
+    color: #6cc091 ;
+    font-size: 30px;
+}
+.sec3 .car h2{
+    font-size: 18px;
+}
+.sec3 .car p{
+    font-size: 12px;
+    color: #dbdbdb;
+}
+.butt{
+    margin-top: 30px;
+}
+.butt button{
+    width: 220px;
+    height:48px;
+    background: none;
+    border: 3px solid #6cc091;
+    border-radius:25px;
+    color: #6cc091;
+}
+/*container2*/
+.div1{
+    margin-top: 30px;
+}
+.marg{
+    padding: 50px 0px 80px 0px;
+}
+.div1 button{
+    width: 180px;
+    height:45px;
+    background: none;
+    border: 2px solid #6cc091;
+    border-radius:25px;
+    color: #6cc091;
+    margin-top: 20px;
+}
+.div1 p{
+    color: grey;
+}
+/*last container*/
+.mean2{
+    width: 100%;
+    background-color: #6cc091;
+    color: #ffffff;
+    padding: 80px 0px 50px 0px;
+}
+.head{
+    font-size: 28px;
+}
+ 
+.in h2{
+    font-size: 15px;
+}
+
+.in input{
+    background: none;
+    color: #ffffff;
+    border:2px solid #8dcca9;
+ } 
+.mess h3{
+    font-size:15px ;
+}
+.mess h3 textarea{
+    background: none;
+    color: #ffffff;
+    border:2px solid #8dcca9;
+}
+.last button{
+    margin-top: 20px;
+    background: none;
+    width: 220px;
+    height:47px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border:2px solid #ffffff;
+    border-radius: 25px;
+}
+.foot{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+@media only screen and (max-width:700px){
+    .navbar-header .navbar-toggle{
+        cursor: pointer;
+        background: none;
+        border: 0;
+    }
+    .navbar-header .navbar-toggle:hover{
+        background: none;
+    }
+   .navbar-default .navbar-header .navbar-toggle .icon-bar{
+        background-color: #ffffff;
+    }
+    .wel h1{
+        font-size: 38px;
+    }
+    .car{
+        border-bottom:1px solid gray;
+    }
+    .add{
+        border: 0;
+    }
+    .butt button{
+        width: 180px;
+         height:45px;
+    }
+    .marg .bor{
+        border-bottom: 2px solid #dbdbdb;
+        padding-bottom: 30px;
+    }
+    .last button{
+        width: 180px;
+        height:45px;
+    }
+}
